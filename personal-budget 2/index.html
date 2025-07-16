@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Presupuesto Personal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>📊 Reporte de Presupuesto Personal</h1>
+    <section id="resumen">
+      <p><strong>Total de Ingresos:</strong> <span id="ingresos"></span></p>
+      <p><strong>Total de Gastos:</strong> <span id="gastos"></span></p>
+      <p><strong>Balance:</strong> <span id="balance"></span></p>
+      <p><strong>¿Presupuesto dentro del límite?:</strong> <span id="presupuesto-ok"></span></p>
+    </section>
+
+    <section>
+      <h2>🔍 Movimientos</h2>
+      <ul id="lista-movimientos"></ul>
+    </section>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
